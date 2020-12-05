@@ -1,0 +1,39 @@
+GHCi, version 8.0.2: http://www.haskell.org/ghc/  :? for help
+[1 of 5] Compiling Testing          ( Testing.lhs, interpreted )
+[2 of 5] Compiling BinaryRelation   ( BinaryRelation.hs, interpreted )
+[3 of 5] Compiling BinaryRelationOps ( BinaryRelationOps.hs, interpreted )
+[4 of 5] Compiling Relations        ( Relations.hs, interpreted )
+[5 of 5] Compiling BinaryRelationOpsTests ( BinaryRelationOpsTests.hs, interpreted )
+Ok, modules loaded: BinaryRelation, BinaryRelationOps, BinaryRelationOpsTests, Relations, Testing.
+
+Testing BinaryRelationOpsTests $Revision: 1.4 $...
+[]
+      == []
+["bar","bar","bar","salad","bar"]
+      == ["bar","bar","bar","salad","bar"]
+["Beijing","Buenos Aires","Cairo","Delhi","Dhaka","Guangzhou","Istanbul","Jakarta","Karachi","Kinshasa","Kolkata","Lagos","Lima","London","Los Angeles","Manila","Mexico City","Moscow","Mumbai","New York City","Osaka","Rio de Janeiro","Sao Paulo","Seoul","Shanghai","Shenzhen","Tehran","Tianjin","Tokyo"]
+      == ["Beijing","Buenos Aires","Cairo","Delhi","Dhaka","Guangzhou","Istanbul","Jakarta","Karachi","Kinshasa","Kolkata","Lagos","Lima","London","Los Angeles","Manila","Mexico City","Moscow","Mumbai","New York City","Osaka","Rio de Janeiro","Sao Paulo","Seoul","Shanghai","Shenzhen","Tehran","Tianjin","Tokyo"]
+[]
+      == []
+["mitzva","stool","tender","bar","keeper"]
+      == ["mitzva","stool","tender","bar","keeper"]
+["China","Argentina","Egypt","India","Bangladesh","China","Turkey","Indonesia","Pakistan","Democratic Republic of the Congo","India","Nigeria","Peru","United Kingdom","United States","Philippines","Mexico","Russia","India","United States","Japan","Brazil","Brazil","South Korea","China","China","Iran","China","Japan"]
+      == ["China","Argentina","Egypt","India","Bangladesh","China","Turkey","Indonesia","Pakistan","Democratic Republic of the Congo","India","Nigeria","Peru","United Kingdom","United States","Philippines","Mexico","Russia","India","United States","Japan","Brazil","Brazil","South Korea","China","China","Iran","China","Japan"]
+[]
+      == []
+[("Chicago","Illinois"),("Miami","Florida"),("Ames","Iowa"),("Orlando","Florida")]
+      == [("Chicago","Illinois"),("Miami","Florida"),("Ames","Iowa"),("Orlando","Florida")]
+[("Ames","Iowa"),("Des Moines","Iowa")]
+      == [("Ames","Iowa"),("Des Moines","Iowa")]
+[("Tokyo","Japan")]
+      == [("Tokyo","Japan")]
+[("Mexico City","Mexico"),("Seoul","South Korea")]
+      == [("Mexico City","Mexico"),("Seoul","South Korea")]
+[]
+      == []
+[("bar",3),("bar",16)]
+      == [("bar",3),("bar",16)]
+[("Beijing",1359470000),("Delhi",1232830000),("Dhaka",152518015),("Guangzhou",1359470000),("Jakarta",237641326),("Karachi",184013000),("Kolkata",1232830000),("Lagos",173615000),("Los Angeles",316497000),("Manila",98234000),("Mexico City",117409830),("Moscow",143400000),("Mumbai",1232830000),("New York City",316497000),("Osaka",127350000),("Rio de Janeiro",193946886),("Sao Paulo",193946886),("Shanghai",1359470000),("Shenzhen",1359470000),("Tianjin",1359470000),("Tokyo",127350000)]
+      == [("Beijing",1359470000),("Delhi",1232830000),("Dhaka",152518015),("Guangzhou",1359470000),("Jakarta",237641326),("Karachi",184013000),("Kolkata",1232830000),("Lagos",173615000),("Los Angeles",316497000),("Manila",98234000),("Mexico City",117409830),("Moscow",143400000),("Mumbai",1232830000),("New York City",316497000),("Osaka",127350000),("Rio de Janeiro",193946886),("Sao Paulo",193946886),("Shanghai",1359470000),("Shenzhen",1359470000),("Tianjin",1359470000),("Tokyo",127350000)]
+Finished with 0 failures!
+Leaving GHCi.

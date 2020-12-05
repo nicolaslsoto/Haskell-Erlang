@@ -1,0 +1,30 @@
+GHCi, version 8.0.2: http://www.haskell.org/ghc/  :? for help
+[1 of 4] Compiling Testing          ( Testing.lhs, interpreted )
+[2 of 4] Compiling Number           ( Number.hs, interpreted )
+[3 of 4] Compiling Rotate           ( Rotate.hs, interpreted )
+[4 of 4] Compiling RotateTests      ( RotateTests.hs, interpreted )
+Ok, modules loaded: Number, Rotate, RotateTests, Testing.
+
+Testing RotateTests $Revision: 1.3 $...
+True
+      == True
+True
+      == True
+True
+      == True
+True
+      == True
+True
+      == True
+True
+      == True
+True
+      == True
+True
+      == True
+True
+      == True
+True
+      == True
+Finished with 0 failures!
+Leaving GHCi.

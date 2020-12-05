@@ -1,0 +1,23 @@
+GHCi, version 8.0.2: http://www.haskell.org/ghc/  :? for help
+[1 of 3] Compiling Testing          ( Testing.lhs, interpreted )
+[2 of 3] Compiling Txt2sms          ( Txt2sms.hs, interpreted )
+[3 of 3] Compiling Txt2smsTests     ( Txt2smsTests.hs, interpreted )
+Ok, modules loaded: Testing, Txt2sms, Txt2smsTests.
+
+Testing Txt2smsTests $Revision: 1.1 $...
+[]
+      == []
+["got","2","go","too","late"]
+      == ["got","2","go","too","late"]
+["u","u","u","u"]
+      == ["u","u","u","u"]
+["u","know","I'll","cya","soon"]
+      == ["u","know","I'll","cya","soon"]
+["btw","u","must","see","my","gf","she","is","gr8"]
+      == ["btw","u","must","see","my","gf","she","is","gr8"]
+["fyi","u","r","a","pig","cya","later","when","u","find","me","a","bf"]
+      == ["fyi","u","r","a","pig","cya","later","when","u","find","me","a","bf"]
+["btw","I'll","brb"]
+      == ["btw","I'll","brb"]
+Finished with 0 failures!
+Leaving GHCi.

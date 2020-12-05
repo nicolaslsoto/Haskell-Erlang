@@ -1,0 +1,33 @@
+GHCi, version 8.0.2: http://www.haskell.org/ghc/  :? for help
+[1 of 3] Compiling Testing          ( Testing.lhs, interpreted )
+[2 of 3] Compiling FindIndex        ( FindIndex.hs, interpreted )
+[3 of 3] Compiling FindIndexTests   ( FindIndexTests.hs, interpreted )
+Ok, modules loaded: FindIndex, FindIndexTests, Testing.
+
+Testing FindIndexTests $Revision: 1.1 $...
+-1
+      == -1
+1
+      == 1
+0
+      == 0
+1
+      == 1
+2
+      == 2
+16
+      == 16
+2
+      == 2
+-1
+      == -1
+3
+      == 3
+0
+      == 0
+0
+      == 0
+999
+      == 999
+Finished with 0 failures!
+Leaving GHCi.

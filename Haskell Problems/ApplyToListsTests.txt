@@ -1,0 +1,35 @@
+GHCi, version 8.0.2: http://www.haskell.org/ghc/  :? for help
+[1 of 5] Compiling Testing          ( Testing.lhs, interpreted )
+[2 of 5] Compiling BinaryRelation   ( BinaryRelation.hs, interpreted )
+[3 of 5] Compiling Relations        ( Relations.hs, interpreted )
+[4 of 5] Compiling ApplyToList      ( ApplyToList.hs, interpreted )
+[5 of 5] Compiling ApplyToListTests ( ApplyToListTests.hs, interpreted )
+Ok, modules loaded: ApplyToList, ApplyToListTests, BinaryRelation, Relations, Testing.
+
+Testing ApplyToListTests $Revision: 1.2 $...
+[]
+      == []
+["Iowa"]
+      == ["Iowa"]
+["Illinois"]
+      == ["Illinois"]
+["mitzva","stool","tender","keeper"]
+      == ["mitzva","stool","tender","keeper"]
+["bar"]
+      == ["bar"]
+[]
+      == []
+[]
+      == []
+[]
+      == []
+["mitzva","stool","tender","keeper"]
+      == ["mitzva","stool","tender","keeper"]
+["bar","mitzva","stool","tender","keeper"]
+      == ["bar","mitzva","stool","tender","keeper"]
+["China","China","China","Japan"]
+      == ["China","China","China","Japan"]
+["Argentina","India","Japan"]
+      == ["Argentina","India","Japan"]
+Finished with 0 failures!
+Leaving GHCi.
