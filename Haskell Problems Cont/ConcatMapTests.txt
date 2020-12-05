@@ -1,0 +1,25 @@
+GHCi, version 8.0.2: http://www.haskell.org/ghc/  :? for help
+[1 of 3] Compiling Testing          ( Testing.lhs, interpreted )
+[2 of 3] Compiling ConcatMap        ( ConcatMap.hs, interpreted )
+[3 of 3] Compiling ConcatMapTests   ( ConcatMapTests.hs, interpreted )
+Ok, modules loaded: ConcatMap, ConcatMapTests, Testing.
+
+Testing ConcatMapTests $Revision: 1.5 $...
+True
+      == True
+True
+      == True
+True
+      == True
+True
+      == True
+True
+      == True
+True
+      == True
+True
+      == True
+True
+      == True
+Finished with 0 failures!
+Leaving GHCi.

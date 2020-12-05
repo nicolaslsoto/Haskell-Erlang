@@ -1,0 +1,22 @@
+GHCi, version 8.0.2: http://www.haskell.org/ghc/  :? for help
+[1 of 4] Compiling Testing          ( Testing.lhs, interpreted )
+[2 of 4] Compiling WindowPlan       ( WindowPlan.hs, interpreted )
+[3 of 4] Compiling FoldWindowPlan   ( FoldWindowPlan.hs, interpreted )
+[4 of 4] Compiling FoldWindowPlanTests ( FoldWindowPlanTests.hs, interpreted )
+Ok, modules loaded: FoldWindowPlan, FoldWindowPlanTests, Testing, WindowPlan.
+
+Testing FoldWindowPlanTests $Revision: 1.1 $...
+True
+      == True
+True
+      == True
+True
+      == True
+True
+      == True
+True
+      == True
+True
+      == True
+Finished with 0 failures!
+Leaving GHCi.

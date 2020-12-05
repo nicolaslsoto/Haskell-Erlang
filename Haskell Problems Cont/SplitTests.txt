@@ -1,0 +1,24 @@
+GHCi, version 8.0.2: http://www.haskell.org/ghc/  :? for help
+[1 of 4] Compiling Testing          ( Testing.lhs, interpreted )
+[2 of 4] Compiling WindowPlan       ( WindowPlan.hs, interpreted )
+[3 of 4] Compiling Split            ( Split.hs, interpreted )
+[4 of 4] Compiling SplitTests       ( SplitTests.hs, interpreted )
+Ok, modules loaded: Split, SplitTests, Testing, WindowPlan.
+
+Testing SplitTests $Revision: 1.2 $...
+Horiz [Win "olympics" 25 33,Win "olympics" 25 33]
+      == Horiz [Win "olympics" 25 33,Win "olympics" 25 33]
+Horiz []
+      == Horiz []
+Vert []
+      == Vert []
+Horiz [Horiz [Win "olympics" 39 33,Win "olympics" 39 33],Win "local news" 21 10]
+      == Horiz [Horiz [Win "olympics" 39 33,Win "olympics" 39 33],Win "local news" 21 10]
+Vert [Win "olympics" 79 33,Horiz [Win "local news" 10 10,Win "local news" 10 10]]
+      == Vert [Win "olympics" 79 33,Horiz [Win "local news" 10 10,Win "local news" 10 10]]
+Vert [Win "Star Trek" 40 100,Horiz [Win "Sienfeld" 40 33,Win "Sienfeld" 40 33],Horiz [Win "Sienfeld" 15 10,Win "Sienfeld" 15 10]]
+      == Vert [Win "Star Trek" 40 100,Horiz [Win "Sienfeld" 40 33,Win "Sienfeld" 40 33],Horiz [Win "Sienfeld" 15 10,Win "Sienfeld" 15 10]]
+Horiz [Vert [Win "Tempest" 200 100,Win "Othello" 200 77,Win "Hamlet" 1000 600],Horiz [Win "baseball" 50 40,Vert [Horiz [Win "local news" 50 60,Win "local news" 50 60],Win "ski jump" 70 30]],Vert [Win "Star Trek" 40 100,Horiz [Win "olympics" 80 33,Horiz [Win "local news" 10 10,Win "local news" 10 10]]]]
+      == Horiz [Vert [Win "Tempest" 200 100,Win "Othello" 200 77,Win "Hamlet" 1000 600],Horiz [Win "baseball" 50 40,Vert [Horiz [Win "local news" 50 60,Win "local news" 50 60],Win "ski jump" 70 30]],Vert [Win "Star Trek" 40 100,Horiz [Win "olympics" 80 33,Horiz [Win "local news" 10 10,Win "local news" 10 10]]]]
+Finished with 0 failures!
+Leaving GHCi.

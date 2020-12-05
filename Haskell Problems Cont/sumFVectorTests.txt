@@ -1,0 +1,28 @@
+GHCi, version 8.0.2: http://www.haskell.org/ghc/  :? for help
+[1 of 6] Compiling Testing          ( Testing.lhs, interpreted )
+[2 of 6] Compiling FloatTesting     ( FloatTesting.hs, interpreted )
+[3 of 6] Compiling FVector          ( FVector.hs, interpreted )
+[4 of 6] Compiling FVectorExamples  ( FVectorExamples.hs, interpreted )
+[5 of 6] Compiling SumFVector       ( SumFVector.hs, interpreted )
+[6 of 6] Compiling SumFVectorTests  ( sumFVectorTests.hs, interpreted )
+Ok, modules loaded: FVector, FVectorExamples, FloatTesting, SumFVector, SumFVectorTests, Testing.
+
+Testing SumFVectorTests $Revision: 1.1 $...
+0.0
+      ~=~ 0.0
+0.0
+      ~=~ 0.0
+55.0
+      ~=~ 55.0
+-55.0
+      ~=~ -55.0
+0.0
+      ~=~ 0.0
+1.9609375
+      ~=~ 1.9609375
+2047.0
+      ~=~ 2047.0
+1.1111
+      ~=~ 1.1111
+Finished with 0 failures!
+Leaving GHCi.

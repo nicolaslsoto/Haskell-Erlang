@@ -1,0 +1,31 @@
+GHCi, version 8.0.2: http://www.haskell.org/ghc/  :? for help
+[1 of 3] Compiling Testing          ( Testing.lhs, interpreted )
+[2 of 3] Compiling FilterInside     ( FilterInside.hs, interpreted )
+[3 of 3] Compiling FilterInsideTests ( filterInsideTests.hs, interpreted )
+Ok, modules loaded: FilterInside, FilterInsideTests, Testing.
+
+Testing FilterInsideTests $Revision: 1.1 $...
+
+Testing filterInside on [[Int]] lists...
+[]
+      == []
+[[]]
+      == [[]]
+[[3,4,5],[4,2],[],[8,7,6]]
+      == [[3,4,5],[4,2],[],[8,7,6]]
+[[1,3,5,7,9],[],[7]]
+      == [[1,3,5,7,9],[],[7]]
+[[0,2,4,6,8,10],[0,2,4,6,8,10],[]]
+      == [[0,2,4,6,8,10],[0,2,4,6,8,10],[]]
+[[0,7],[5]]
+      == [[0,7],[5]]
+
+Testing filterInside on [[Char]] lists...
+["string","isalist"]
+      == ["string","isalist"]
+["UCF","CS","",""]
+      == ["UCF","CS","",""]
+["Haskellis","Wonderful","grOK"]
+      == ["Haskellis","Wonderful","grOK"]
+Finished with 0 failures!
+Leaving GHCi.

@@ -1,0 +1,28 @@
+GHCi, version 8.0.2: http://www.haskell.org/ghc/  :? for help
+[1 of 4] Compiling Testing          ( Testing.lhs, interpreted )
+[2 of 4] Compiling StatementsExpressions ( StatementsExpressions.hs, interpreted )
+[3 of 4] Compiling Simplify         ( Simplify.hs, interpreted )
+[4 of 4] Compiling SimplifyTests    ( SimplifyTests.hs, interpreted )
+Ok, modules loaded: Simplify, SimplifyTests, StatementsExpressions, Testing.
+
+Testing SimplifyTests $Revision: 1.2 $...
+ExpStmt (NumExp 7)
+      == ExpStmt (NumExp 7)
+ExpStmt (NumExp 6)
+      == ExpStmt (NumExp 6)
+ExpStmt (NumExp 7)
+      == ExpStmt (NumExp 7)
+ExpStmt (VarExp "q")
+      == ExpStmt (VarExp "q")
+ExpStmt (VarExp "true")
+      == ExpStmt (VarExp "true")
+ExpStmt (EqualsExp (VarExp "x") (VarExp "x"))
+      == ExpStmt (EqualsExp (VarExp "x") (VarExp "x"))
+AssignStmt "y" (EqualsExp (VarExp "jz") (VarExp "jz"))
+      == AssignStmt "y" (EqualsExp (VarExp "jz") (VarExp "jz"))
+AssignStmt "d" (VarExp "true")
+      == AssignStmt "d" (VarExp "true")
+AssignStmt "g" (BeginExp [AssignStmt "d" (VarExp "true"),AssignStmt "z" (EqualsExp (VarExp "m") (VarExp "m"))] (BeginExp [AssignStmt "e" (EqualsExp (VarExp "y") (NumExp 2)),ExpStmt (NumExp 3)] (BeginExp [ExpStmt (NumExp 1)] (VarExp "true"))))
+      == AssignStmt "g" (BeginExp [AssignStmt "d" (VarExp "true"),AssignStmt "z" (EqualsExp (VarExp "m") (VarExp "m"))] (BeginExp [AssignStmt "e" (EqualsExp (VarExp "y") (NumExp 2)),ExpStmt (NumExp 3)] (BeginExp [ExpStmt (NumExp 1)] (VarExp "true"))))
+Finished with 0 failures!
+Leaving GHCi.

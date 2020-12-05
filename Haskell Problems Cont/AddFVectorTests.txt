@@ -1,0 +1,25 @@
+GHCi, version 8.0.2: http://www.haskell.org/ghc/  :? for help
+[1 of 7] Compiling Testing          ( Testing.lhs, interpreted )
+[2 of 7] Compiling FloatTesting     ( FloatTesting.hs, interpreted )
+[3 of 7] Compiling FVector          ( FVector.hs, interpreted )
+[4 of 7] Compiling FVectorExamples  ( FVectorExamples.hs, interpreted )
+[5 of 7] Compiling FVectorTesting   ( FVectorTesting.hs, interpreted )
+[6 of 7] Compiling AddFVector       ( AddFVector.hs, interpreted )
+[7 of 7] Compiling AddFVectorTests  ( AddFVectorTests.hs, interpreted )
+Ok, modules loaded: AddFVector, AddFVectorTests, FVector, FVectorExamples, FVectorTesting, FloatTesting, Testing.
+
+Testing AddFVectorTests $Revision: 1.2 $...
+0<[]>
+      ~=~ 0<[]>
+11<[0.0, 2.0, 4.0, 6.0, 8.0, 10.0, 12.0, 14.0, 16.0, 18.0, 20.0]>
+      ~=~ 11<[0.0, 2.0, 4.0, 6.0, 8.0, 10.0, 12.0, 14.0, 16.0, 18.0, 20.0]>
+11<[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]>
+      ~=~ 11<[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]>
+9<[1.0, 1.5, 1.5, 1.375, 1.25, 1.15625, 1.09375, 1.0546875, 1.03125]>
+      ~=~ 9<[1.0, 1.5, 1.5, 1.375, 1.25, 1.15625, 1.09375, 1.0546875, 1.03125]>
+11<[2.0, 4.0, 8.0, 16.0, 32.0, 64.0, 128.0, 256.0, 512.0, 1024.0, 2048.0]>
+      ~=~ 11<[2.0, 4.0, 8.0, 16.0, 32.0, 64.0, 128.0, 256.0, 512.0, 1024.0, 2048.0]>
+5<[1.0, 0.1, 1.0000000000000002e-2, 1.0000000000000002e-3, 1.0000000000000005e-4]>
+      ~=~ 5<[1.0, 0.1, 1.0000000000000002e-2, 1.0000000000000002e-3, 1.0000000000000005e-4]>
+Finished with 0 failures!
+Leaving GHCi.

@@ -1,0 +1,43 @@
+GHCi, version 8.0.2: http://www.haskell.org/ghc/  :? for help
+[1 of 3] Compiling Testing          ( Testing.lhs, interpreted )
+[2 of 3] Compiling InfSet           ( InfSet.hs, interpreted )
+[3 of 3] Compiling InfSetTests      ( InfSetTests.hs, interpreted )
+Ok, modules loaded: InfSet, InfSetTests, Testing.
+
+Testing InfSetTests $Revision: 1.3 $...
+True
+      == True
+False
+      == False
+True
+      == True
+True
+      == True
+False
+      == False
+False
+      == False
+True
+      == True
+True
+      == True
+True
+      == True
+False
+      == False
+False
+      == False
+False
+      == False
+True
+      == True
+True
+      == True
+False
+      == False
+False
+      == False
+True
+      == True
+Finished with 0 failures!
+Leaving GHCi.

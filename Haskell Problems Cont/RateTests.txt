@@ -1,0 +1,31 @@
+GHCi, version 8.0.2: http://www.haskell.org/ghc/  :? for help
+[1 of 3] Compiling Testing          ( Testing.lhs, interpreted )
+[2 of 3] Compiling Rate             ( Rate.hs, interpreted )
+[3 of 3] Compiling RateTests        ( RateTests.hs, interpreted )
+Ok, modules loaded: Rate, RateTests, Testing.
+
+Testing $Revision: 1.2 $...
+[]
+      == []
+[(1,"one")]
+      == [(1,"one")]
+[(1,"one"),(1,"one")]
+      == [(1,"one"),(1,"one")]
+[(1,"one"),(1,"one"),(3,"two")]
+      == [(1,"one"),(1,"one"),(3,"two")]
+[(1,"abel"),(1,"abel"),(3,"baker"),(4,"charlie"),(4,"charlie"),(6,"delta"),(7,"echo")]
+      == [(1,"abel"),(1,"abel"),(3,"baker"),(4,"charlie"),(4,"charlie"),(6,"delta"),(7,"echo")]
+[(1,"abel"),(2,"baker"),(2,"baker"),(2,"baker"),(2,"baker")]
+      == [(1,"abel"),(2,"baker"),(2,"baker"),(2,"baker"),(2,"baker")]
+[]
+      == []
+[(1,Person "Tom" 532),(1,Person "Pat" 532)]
+      == [(1,Person "Tom" 532),(1,Person "Pat" 532)]
+[(1,Person "Pat" 532),(1,Person "Tom" 532)]
+      == [(1,Person "Pat" 532),(1,Person "Tom" 532)]
+[(1,Person "Neil" 703),(2,Person "Pat" 532),(2,Person "Tom" 532)]
+      == [(1,Person "Neil" 703),(2,Person "Pat" 532),(2,Person "Tom" 532)]
+[(1,Person "Graham" 319),(2,Person "Chris" 312),(3,Person "Audrey" 305),(4,Person "Steven & Darcy" 295),(4,Person "josh" 295),(6,Person "David" 294),(7,Person "John" 293),(8,Person "Jonathan" 290),(9,Person "adam" 286),(10,Person "Rangel" 281),(11,Person "Charles" 280),(12,Person "Andy" 276),(13,Person "Angel & Mariel" 274),(14,Person "Mark" 273),(15,Person "Kevin" 270),(16,Person "Scott" 269),(16,Person "Ron" 269),(18,Person "Tom" 267),(19,Person "Michael" 266),(20,Person "Steven" 263),(21,Person "Eric" 261),(22,Person "Brian" 257),(23,Person "Janet" 256),(24,Person "Thomas" 225),(24,Person "Peter" 225),(26,Person "Carlos" 224),(27,Person "Gary" 223),(27,Person "Nancy" 223)]
+      == [(1,Person "Graham" 319),(2,Person "Chris" 312),(3,Person "Audrey" 305),(4,Person "Steven & Darcy" 295),(4,Person "josh" 295),(6,Person "David" 294),(7,Person "John" 293),(8,Person "Jonathan" 290),(9,Person "adam" 286),(10,Person "Rangel" 281),(11,Person "Charles" 280),(12,Person "Andy" 276),(13,Person "Angel & Mariel" 274),(14,Person "Mark" 273),(15,Person "Kevin" 270),(16,Person "Scott" 269),(16,Person "Ron" 269),(18,Person "Tom" 267),(19,Person "Michael" 266),(20,Person "Steven" 263),(21,Person "Eric" 261),(22,Person "Brian" 257),(23,Person "Janet" 256),(24,Person "Thomas" 225),(24,Person "Peter" 225),(26,Person "Carlos" 224),(27,Person "Gary" 223),(27,Person "Nancy" 223)]
+Finished with 0 failures!
+Leaving GHCi.

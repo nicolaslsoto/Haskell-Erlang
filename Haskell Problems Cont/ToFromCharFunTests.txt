@@ -1,0 +1,33 @@
+GHCi, version 8.0.2: http://www.haskell.org/ghc/  :? for help
+[1 of 3] Compiling Testing          ( Testing.lhs, interpreted )
+[2 of 3] Compiling ToFromCharFun    ( ToFromCharFun.hs, interpreted )
+[3 of 3] Compiling ToFromCharFunTests ( ToFromCharFunTests.hs, interpreted )
+Ok, modules loaded: Testing, ToFromCharFun, ToFromCharFunTests.
+
+Testing ToFromCharFunTests $Revision: 1.1 $...
+
+Testing toCharFun...
+'d'
+      == 'd'
+'c'
+      == 'c'
+'h'
+      == 'h'
+'p'
+      == 'p'
+'V'
+      == 'V'
+
+Testing fromCharFun...
+7
+      == 7
+120
+      == 120
+65
+      == 65
+101
+      == 101
+97
+      == 97
+Finished with 0 failures!
+Leaving GHCi.
