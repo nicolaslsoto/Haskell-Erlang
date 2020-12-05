@@ -1,0 +1,18 @@
+Eshell V9.2  (abort with ^G)
+1> {ok,electionserver}
+2> {ok,electionserver_tests}
+3> 
+Testing electionserver_tests $Revision: 1.3 $...
+[]
+      == []
+[{christy,1},{clinton,2}]
+      == [{christy,1},{clinton,2}]
+[{abel,1},{baker,1},{christy,4},{clinton,3}]
+      == [{abel,1},{baker,1},{christy,4},{clinton,3}]
+[]
+      == []
+[{fiu,1},{fsu,1},{ucf,3},{uf,1},{usf,1}]
+      == [{fiu,1},{fsu,1},{ucf,3},{uf,1},{usf,1}]
+Finished with 0 failures!
+0
+4> 

@@ -1,0 +1,22 @@
+Eshell V9.2  (abort with ^G)
+1> {ok,barrier}
+2> {ok,barrier_tests}
+3> 
+Testing barrier_tests $Revision: 1.4 $...
+4
+      == 4
+3
+      == 3
+0
+      == 0
+2
+      == 2
+0
+      == 0
+0
+      == 0
+4
+      == 4
+Finished with 0 failures!
+0
+4> 

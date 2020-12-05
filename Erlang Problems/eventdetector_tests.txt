@@ -1,0 +1,20 @@
+Eshell V9.2  (abort with ^G)
+1> {ok,eventdetector}
+2> {ok,eventdetector_tests}
+3> 
+Testing eventdetector_tests $Revision: 1.10 $...
+4
+      == 4
+7
+      == 7
+0
+      == 0
+[gogo,gogo,gogo,gogo]
+      == [gogo,gogo,gogo,gogo]
+[]
+      == []
+[matched,matched,matched]
+      == [matched,matched,matched]
+Finished with 0 failures!
+0
+4> 
